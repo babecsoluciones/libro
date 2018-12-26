@@ -22,7 +22,7 @@
 
 							<!-- Header -->
 								<header id="header">
-									<a href="index.php" class="logo"><img src="images/logo-hr.png"></a>
+									<a href="index.php" class="logo"><img src="images/logo-hr.png" style="max-width:100px; max-height:100px;"></a>
 									<!--<ul class="icons">
 										<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 										<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
