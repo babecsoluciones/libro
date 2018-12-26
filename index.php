@@ -61,7 +61,7 @@ El nacimiento de la radio, no fue fácil ni definido. Este medio tuvo que buscar
 							<!-- Section -->
 								<section <?=$_GET['seccion'] ? '' : 'style="display:none;"'?>>
 									<?
-    include($_GET['seccion']'.html');
+    include($_GET['seccion'].'.html');
     ?>
 								</section>
 
