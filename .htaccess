@@ -8,8 +8,9 @@ RewriteCond %{HTTP_HOST} !^historiadelaradio\.com$
 RewriteRule ^(.*) http://historiadelaradio.com/$1 [R=301,L]
 
 # Specify search friendly URLs
-RewriteRule ^/historia$ /index.php?seccion=historia [L]
-RewriteRule ^/puzzle$ /index.php?seccion=puzzle [L]
-RewriteRule ^/inicio$ /index.php [L]
+RewriteRule ^historia/$ /index.php?seccion=historia [L]
+RewriteRule ^puzzle/$ /index.php?seccion=puzzle [L]
+RewriteRule ^laberinto/$ /index.php?seccion=laberinto [L]
+RewriteRule ^inicio/$ /index.php [L]
 
 # Generated for free at SearchFriendlyURLs.com
