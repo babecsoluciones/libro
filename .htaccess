@@ -5,9 +5,11 @@ RewriteBase /
 
 # Force search engines to use historiadelaradio.com
 RewriteCond %{HTTP_HOST} !^historiadelaradio\.com$
-RewriteRule ^(.*) http://historiadelaradio.com/index.php [R=301,L]
+RewriteRule ^(.*) http://historiadelaradio.com/$1 [R=301,L]
 
 # Specify search friendly URLs
-RewriteRule ^s/(\w+)/?$$ /index.php?seccion=$1 [L]
+RewriteRule ^http://historiadelaradio\.com/libro/historia$ /http://historiadelaradio.com/libro/index.php?seccion=historia [L]
+RewriteRule ^http://historiadelaradio\.com/libro/puzzle$ /http://historiadelaradio.com/libro/index.php?seccion=puzzle [L]
+RewriteRule ^http://historiadelaradio\.com/libro/laberinto$ /http://historiadelaradio.com/libro/index.php?seccion=laberinto [L]
 
 # Generated for free at SearchFriendlyURLs.com
