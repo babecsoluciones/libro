@@ -1,16 +1,7 @@
-Options -Multiviews
-
-RewriteEngine On
-RewriteBase /
-
-# Force search engines to use historiadelaradio.com
-RewriteCond %{HTTP_HOST} !^historiadelaradio\.com$
-RewriteRule ^(.*) http://historiadelaradio.com/$1 [R=301,L]
-
-# Specify search friendly URLs
-RewriteRule ^historia/$ /index.php?seccion=historia [L]
-RewriteRule ^puzzle/$ /index.php?seccion=puzzle [L]
-RewriteRule ^laberinto/$ /index.php?seccion=laberinto [L]
-RewriteRule ^inicio/$ /index.php [L]
-
-# Generated for free at SearchFriendlyURLs.com
+# Activar RewriteEngine
+RewriteEngine on
+ 
+# Reescribir la URL solicitada por el usuario
+#   Entrada:  s/NOMBRE/
+#   Salida: index.php?id=NOMBRE
+RewriteRule ^s/(\w+)/?$ index.php?id=$1
