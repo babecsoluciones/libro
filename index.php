@@ -25,6 +25,13 @@
         .snappuzzle-slot { position: absolute; background: #fff; opacity: .8; }
         .snappuzzle-slot-hover { background: #eee; }
     </style>
+        
+        <!--sopa de letras-->
+        <script type="text/javascript" src="word/jquery-1.6.2.min.js"></script>
+        <script type="text/javascript" src="word/jquery-ui-1.8.16.custom.min.js"></script>
+        <script type="text/javascript" src="word/jquery.wordsearchgame.js"></script>
+        <link  rel="stylesheet" type="text/css" href="word/jquery.wordsearchgame.css">
+        
 	</head>
 	<body class="is-preload">
 
@@ -207,5 +214,32 @@ El nacimiento de la radio, no fue fácil ni definido. Este medio tuvo que buscar
             ');
         }
     </script>
+        
+    <script>
+		$(document).ready( function () {
+			var words = "locutor,microfono,estacion,cabina,entrevista,frecuencia";/*,neptune,pluto,saturn,jupiter,one,two,"+
+						"three,four,five,six,seven,eight,mozart,bach,meyer,rose,mahler";*/
+			
+			//attach the game to a div
+			$("#theGrid").wordsearchwidget(
+				{"wordlist" : words,
+				"gridsize" : 15, 
+				"onWordFound" : function(ob){
+					$('#onWordFound').html("Encontraste: " + ob.word);
+					d = setTimeout(function(){
+						clearTimeout(d);
+						$('#onWordFound').html(" ");					
+					},3000);
+
+				},
+				"onWordSearchComplete" :function(){
+					$('#onWordSearchComplete').html("Encontraste todas las palabras!");
+				}
+			});
+		});
+
+    
+        </script>
+        
 	</body>
 </html>
