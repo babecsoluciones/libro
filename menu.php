@@ -11,7 +11,7 @@ $url = "http://historiadelaradio.com/libro/";
 												<li><a href="<?=$url?>seccion-puzzle">Rompecabezas</a></li>
 												<li><a href="<?=$url?>seccion-laberinto">Laberinto</a></li>
                                                 <li><a href="<?=$url?>seccion-sopadeletras">Sopa de Letras</a></li>
-                                                <li><a href="<?=$url?>seccion-gato">Gato</a></li>
+                                                <li><a href="<?=$url?>seccion-tictactoe">Gato</a></li>
 											</ul>
 										</li>
 									</ul>
