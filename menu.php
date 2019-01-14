@@ -1,10 +1,19 @@
 <?
-$url = "http://historiadelaradio.com/libro/";
+$url = "./";
 ?>
 <ul>
 										<li><a href="<?=$url?>">Inicio</a></li>
 										<li><a href="<?=$url?>seccion-historia">Historia</a></li>
 										<!--<li><a href="index.php?seccion=historia">Historia</a></li>-->
+                                        <li>
+											<span class="opener">Equipo</span>
+											<ul>
+												<li><a href="<?=$url?>seccion-mezcladora">Mezcladora</a></li>
+												<li><a href="<?=$url?>seccion-audifonos">Aud&iacute;fonos</a></li>
+                                                <li><a href="<?=$url?>seccion-microfono">Micro&oacute;fono</a></li>
+											</ul>
+										</li>
+    										<li><a href="<?=$url?>seccion-ejercicios">Ejercicios</a></li>
 										<li>
 											<span class="opener">Juegos</span>
 											<ul>
