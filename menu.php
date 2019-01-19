@@ -21,6 +21,7 @@ $url = "./";
 												<li><a href="<?=$url?>seccion-laberinto">Laberinto</a></li>
                                                 <li><a href="<?=$url?>seccion-sopadeletras">Sopa de Letras</a></li>
                                                 <li><a href="<?=$url?>seccion-tictactoe">Gato</a></li>
+                                                <li><a href="<?=$url?>seccion-breakout">BreakOut</a></li>
 											</ul>
 										</li>
 									</ul>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Molle:400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico" rel="stylesheet">
+    <!-- <script src="js/main.js"></script> -->
+    <title>BreakOut JQuery</title>
+  </head>
+
+  <body>
+    <audio autoplay volume="0.15">
+      <source src="music/mainmenu.mp3" type="audio/mpeg" volume="0.25"></audio>
+
+
+    <!-- Game container -->
+    <div class="gameBox">
+      <div id="jquery" class="rotate">Juguemos</div>
+      <div id="bigTitle">BREAKOUT</div>
+      <div id="startGame" class="fade">[1] Nuevo Juego</div>
+      <div id="highScores" class="fade">[2] Puntajes Altos</div>
+      <div id="about" class="fade">[3] Acerca de Breakout</div>
+      <div id="spacebarStart" class="fade"></div>
+      <div id="scoreBox">
+        <ol id="scoreSheet">
+          <li id="score1" class="fade">...</li>
+          <li id="score2" class="fade">...</li>
+          <li id="score3" class="fade">...</li>
+          <li id="score4" class="fade">...</li>
+          <li id="score5" class="fade">...</li>
+        </ol>
+      </div>
+      <div id="backButton" class="fade">[Back]</div>
+      <div id="breakoutInfo">Breakout es un juego de arcade desarrollado y publicado por Atari, Inc. Fue conceptualizado por Nolan Bushnell y Steve Bristow, influenciado por el juego de arcade Atari de 1972, y construido por Steve Wozniak con la ayuda de Steve Jobs.</div>
+      <canvas id="canvas" width="650" height="475"></canvas>
+    </div>
+    <div class="gameInfo">
+  		<div class="instructions">
+  			<small>
+  				Utiliza las teclas de dirección o bien, mueve el mouse
+  				<br>
+  			</small>
+  		</div>
+  	</div>
+    <!-- Game logo -->
+    <div class="logo">
+      <div id="score">Score: <span id="currentScore">0</span></div>
+      <div id="muteButton"><img src="img/play2.png" alt="Mute"></div>
+      <div id="gameOver">GAME OVER</div>
+      <div id="newGame" class="fade">Nuevo Juego</div>
+      <!-- <div class ="playerLives">
+        <ul>
+          <li class="life"></li>
+          <li class="life"></li>
+          <li class="life"></li>
+        </ul>
+      </div> -->
+    </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/controls.js"></script>
+  <script src="js/jquery.playSound.js"></script>
+  </body>
+
+</html>
+
+
+<!-- class="animated fadeIn" -->
