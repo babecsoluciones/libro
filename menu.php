@@ -25,4 +25,5 @@ $url = "./";
                                                 <li><a href="<?=$url?>seccion-memoria">Memoria</a></li>
 											</ul>
 										</li>
+                                            <li><a href="../pdf/libro.pdf" download><i class="fas fa-file-pdf"></i>Descargar libro</a></li>
 									</ul>
