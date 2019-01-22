@@ -10,7 +10,7 @@ $url = "./";
 											<ul>
 												<li><a href="<?=$url?>seccion-mezcladora">Mezcladora</a></li>
 												<li><a href="<?=$url?>seccion-audifonos">Aud&iacute;fonos</a></li>
-                                                <li><a href="<?=$url?>seccion-microfono">Micro&oacute;fono</a></li>
+                                                <li><a href="<?=$url?>seccion-microfono">Micr&oacute;fono</a></li>
 											</ul>
 										</li>
     										<li><a href="<?=$url?>seccion-ejercicios">Ejercicios</a></li>
@@ -22,6 +22,7 @@ $url = "./";
                                                 <li><a href="<?=$url?>seccion-sopadeletras">Sopa de Letras</a></li>
                                                 <li><a href="<?=$url?>seccion-tictactoe">Gato</a></li>
                                                 <li><a href="<?=$url?>seccion-breakout">BreakOut</a></li>
+                                                <li><a href="<?=$url?>seccion-memoria">Memoria</a></li>
 											</ul>
 										</li>
 									</ul>
