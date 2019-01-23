@@ -15,6 +15,8 @@ $url = "./";
 										</li>
     										<li><a href="<?=$url?>seccion-preguntas">Preguntas</a></li>
     										<li><a href="<?=$url?>seccion-ejercicios">Ejercicios</a></li>
+    										<li><a href="<?=$url?>seccion-temas">Mis 5 temas</a></li>
+    										<li><a href="<?=$url?>seccion-arbol">Organiza sin descuidar</a></li>
                                             <li><a href="<?=$url?>seccion-completa">Completa las Oraciones</a></li>
 										<li>
 											<span class="opener">Juegos</span>
