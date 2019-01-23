@@ -13,7 +13,9 @@ $url = "./";
                                                 <li><a href="<?=$url?>seccion-microfono">Micr&oacute;fono</a></li>
 											</ul>
 										</li>
+    										<li><a href="<?=$url?>seccion-preguntas">Preguntas</a></li>
     										<li><a href="<?=$url?>seccion-ejercicios">Ejercicios</a></li>
+                                            <li><a href="<?=$url?>seccion-completa">Completa las Oraciones</a></li>
 										<li>
 											<span class="opener">Juegos</span>
 											<ul>

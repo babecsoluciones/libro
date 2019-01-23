@@ -1,0 +1,40 @@
+
+									<header class="main">
+										<h1>Completa las Oraciones</h1>
+									</header>
+
+									<!--<span class="image main"><img src="images/pic11.jpg" alt="" /></span>-->
+<script>
+function validar()
+    {
+        var p1=document.getElementById('p1').value.toUpperCase(),
+            p2=document.getElementById('p2').value.toUpperCase(),
+            p3=document.getElementById('p3').value.toUpperCase(),
+            p4=document.getElementById('p4').value.toUpperCase(),
+            p5=document.getElementById('p5').value.toUpperCase(),
+            p6=document.getElementById('p6').value.toUpperCase();
+        if(p1=="LOCUTOR"&&p2="ROJO"&p3=="AL AIRE"&&p4="CABINA"&&p5="SONIDISTA"&&p6="MEZCLADORA")
+            {
+                alert("Bien hecho!");
+            }
+        else
+            {
+                alert("Casi, vuelve a intentarlo");
+            }
+    }
+</script>
+									<p>
+                                        Completa las siguientes oraciones con base en las siguientes palabras: </p>
+                                        <ul>
+<li>Locutor</li>
+<li>Cabina</li>
+<li>Mezcladora</li>
+<li>Al aire</li>
+<li>Rojo</li>
+<li>Sonidista</li>
+</ul>
+
+<p>
+    <br>Una vez fui con mi abvuelo a la estaci&oacute;n de radio donde trabaja como <input type="text" id="p1">, lo primero que vi cuando inici&oacute; su programa fue un foco <input type="text" id="p2"> que indicaba que ya estaba <input type="text" id="p3">. Entonces, me fui a la <input type="text" id="p4"> a ver como el <input type="text" id="p5"> usaba la <input type="text" id="p6"> para que el programa se escuchara bien.
+</p>
+<input type="button" onclick="validar" class="btn btn-info" value="Revisar">
