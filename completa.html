@@ -19,16 +19,24 @@
 <p>
     <br>Una vez fui con mi abuelo a la estaci&oacute;n de radio donde trabaja como <input type="text" id="r1" placeholder="palabra">, lo primero que vi cuando inici&oacute; su programa fue un foco <input type="text" id="r2" placeholder="palabra"> que indicaba que ya estaba <input type="text" id="p3" placeholder="palabra">. Entonces, me fui a la <input type="text" id="r4" placeholder="palabra"> a ver como el <input type="text" id="r5" placeholder="palabra"> usaba la <input type="text" id="r6" placeholder="palabra"> para que el programa se escuchara bien.
 </p>
-<input type="button" onclick="validar();" class="btn btn-info" value="Revisar">
+<input type="button" onclick="validarRespuestas();" class="btn btn-info" value="Revisar">
 <script>
-function validar()
+function validarRespuestas()
     {
-        var p1=document.getElementById('r1').value.toUpperCase(),
-            p2=document.getElementById('r2').value.toUpperCase(),
-            p3=document.getElementById('r3').value.toUpperCase(),
-            p4=document.getElementById('r4').value.toUpperCase(),
-            p5=document.getElementById('r5').value.toUpperCase(),
-            p6=document.getElementById('r6').value.toUpperCase();
+        var p1=document.getElementById('r1').value,
+            p2=document.getElementById('r2').value,
+            p3=document.getElementById('r3').value,
+            p4=document.getElementById('r4').value,
+            p5=document.getElementById('r5').value,
+            p6=document.getElementById('r6').value;
+        
+            p1 = p1.toUpperCase();
+            p2 = p2.toUpperCase();
+            p3 = p3.toUpperCase();
+            p4 = p4.toUpperCase();
+            p5 = p5.toUpperCase();
+            p6 = p6.toUpperCase();
+        
         if(p1=="LOCUTOR"&&p2="ROJO"&p3=="AL AIRE"&&p4="CABINA"&&p5="SONIDISTA"&&p6="MEZCLADORA")
             {
                 alert("Bien hecho!");
