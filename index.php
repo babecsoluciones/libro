@@ -53,6 +53,7 @@
 							<!-- Banner -->
 								<section id="banner" <?=$_GET['seccion'] ? 'style="display:none;"' : ''?>>
 									<div class="content">
+                                        <img src="images/portada.png" class="img-responsive">
 										<header>
 											<h1>¿QUÉ ES LA RADIO?</h1>
                                         </header>
