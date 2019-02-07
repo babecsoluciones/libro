@@ -53,7 +53,7 @@
 							<!-- Banner -->
 								<section id="banner" <?=$_GET['seccion'] ? 'style="display:none;"' : ''?>>
 									<div class="content">
-                                        <span class="image object">
+                                        <span >
 										<img src="images/portada.png" alt="" />
 									</span>
 										<header>
